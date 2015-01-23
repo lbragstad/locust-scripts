@@ -2,7 +2,7 @@
 
 This repository is intended as a dumping ground for Locust test plans. Each
 test plan subdirectory should contain a ```README.md``` explaining the test
-plan and how it work.
+plan and how it works.
 
 ### Setup
 
