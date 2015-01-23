@@ -1,7 +1,4 @@
-from time import sleep
-
 import locust
-import json
 
 
 class Authenticate(locust.TaskSet):
