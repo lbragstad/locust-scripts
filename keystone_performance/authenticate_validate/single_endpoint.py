@@ -54,6 +54,5 @@ class Authenticate(locust.TaskSet):
 
 class KeystoneUser(locust.HttpLocust):
     task_set = Authenticate
-    host = 'http://<api_haproxy_ip>:<port>'
     min_wait=1000
     max_wait=1000
