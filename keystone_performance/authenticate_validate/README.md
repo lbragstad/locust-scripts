@@ -9,12 +9,16 @@ nodes behind the API node.
 
 ### Setup
 
+Install locustio according to the [installation directions].
+
 Load and run the locust swarm with the following:
 
 ```sh
-$ python -H http://<api_ip_address> single_endpoint.py
+$ locust -H http://<api_ip_address> -f single_endpoint.py
 ```
 
 By default, the locust user interface should be available on port 8089. Through
 locust you can define the number of users to simulate and the hatch rate of the
 swarm.
+
+[installation directions] http://docs.locust.io/en/latest/installation.html
