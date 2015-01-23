@@ -57,6 +57,8 @@ class KeystoneUser(locust.HttpLocust):
     # NOTE(lbragstad): Make this a list of endpoints. Also find a way to pass
     # in these endpoints to the scripts instead of having to modify the test
     # everytime the endpoint changes.
+    import pdb
+    pdb.set_trace()
     host = ['http://<api_haproxy_ip>:<port>']
     min_wait=1000
     max_wait=1000
