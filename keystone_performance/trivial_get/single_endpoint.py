@@ -6,7 +6,8 @@ class Authenticate(locust.TaskSet):
     @locust.task
     def authenticate(self):
         # Set header information and path
-        headers = {'content-type': 'application/json'}
+        headers = {'content-type': 'application/json',
+                   'x-auth-token': 'ADMIN'}
         path = '/'
 
         # Since this is a python-request object handed to us on HttpLocust()
